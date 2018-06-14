@@ -1,0 +1,26 @@
+<form name="QandA" method="POST" netlify>
+  <p>
+    <label>No: <select name="No[]" multiple>
+      <option value="NO-1">NO-1</option>
+      <option value="NO-2">NO-2</option>
+      <option value="NO-3">NO-3</option>
+      <option value="NO-4">NO-4</option>
+      <option value="NO-5">NO-5</option>
+      <option value="NO-6">NO-6</option>
+      <option value="NO-7">NO-7</option>
+      <option value="NO-8">NO-8</option>
+      <option value="NO-9">NO-9</option>
+      <option value="NO-10">NO-10</option>
+      <option value="NO-11">NO-11</option>
+    </select></label>
+  </p>
+  <p>
+    <label>question: <input type="text" name="question" /></label>
+  </p>
+  <p>
+    <label>Answer: <textarea name="Answer"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
